@@ -1,0 +1,83 @@
+[2026-09-20 14:46:58] SERVER -> CLIENT: 220-bom1plzcpnl493944.prod.bom1.secureserver.net ESMTP Exim 4.100 #2 Sun, 20 Sep 2026 07:46:58 -0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[2026-09-20 14:46:58] CLIENT -> SERVER: EHLO Sais-MacBook-Air-2.local
+
+[2026-09-20 14:46:58] SERVER -> CLIENT: 250-bom1plzcpnl493944.prod.bom1.secureserver.net Hello Sais-MacBook-Air-2.local [49.43.217.144]
+250-SIZE 52428800
+250-LIMITS MAILMAX=10 RCPTMAX=50000
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250-STARTTLS
+250 HELP
+
+[2026-09-20 14:46:58] CLIENT -> SERVER: STARTTLS
+
+[2026-09-20 14:46:58] SERVER -> CLIENT: 220 TLS go ahead
+
+[2026-09-20 14:46:58] CLIENT -> SERVER: EHLO Sais-MacBook-Air-2.local
+
+[2026-09-20 14:46:58] SERVER -> CLIENT: 250-bom1plzcpnl493944.prod.bom1.secureserver.net Hello Sais-MacBook-Air-2.local [49.43.217.144]
+250-SIZE 52428800
+250-LIMITS MAILMAX=10 RCPTMAX=50000
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[2026-09-20 14:46:58] CLIENT -> SERVER: AUTH LOGIN
+
+[2026-09-20 14:46:59] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2026-09-20 14:46:59] CLIENT -> SERVER: [credentials hidden]
+[2026-09-20 14:46:59] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2026-09-20 14:46:59] CLIENT -> SERVER: [credentials hidden]
+[2026-09-20 14:47:00] SERVER -> CLIENT: 235 Authentication succeeded
+
+[2026-09-20 14:47:00] CLIENT -> SERVER: MAIL FROM:<info@aiinfoways.com>
+
+[2026-09-20 14:47:00] SERVER -> CLIENT: 250 OK
+
+[2026-09-20 14:47:00] CLIENT -> SERVER: RCPT TO:<test@example.com>
+
+[2026-09-20 14:47:00] SERVER -> CLIENT: 250 Accepted
+
+[2026-09-20 14:47:00] CLIENT -> SERVER: DATA
+
+[2026-09-20 14:47:00] SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[2026-09-20 14:47:00] CLIENT -> SERVER: Date: Sun, 20 Sep 2026 14:46:57 +0000
+
+[2026-09-20 14:47:00] CLIENT -> SERVER: To: test@example.com
+
+[2026-09-20 14:47:00] CLIENT -> SERVER: From: Araku Tribe <info@aiinfoways.com>
+
+[2026-09-20 14:47:00] CLIENT -> SERVER: Subject: Test
+
+[2026-09-20 14:47:00] CLIENT -> SERVER: Message-ID: <JUDMszgBurBWuEZoYCq8FDYs6KbVbwOZWHAV3K5XIqE@Sais-MacBook-Air-2.local>
+
+[2026-09-20 14:47:00] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[2026-09-20 14:47:00] CLIENT -> SERVER: MIME-Version: 1.0
+
+[2026-09-20 14:47:00] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[2026-09-20 14:47:00] CLIENT -> SERVER: 
+
+[2026-09-20 14:47:00] CLIENT -> SERVER: test
+
+[2026-09-20 14:47:00] CLIENT -> SERVER: 
+
+[2026-09-20 14:47:00] CLIENT -> SERVER: .
+
+[2026-09-20 14:47:04] SERVER -> CLIENT: 250 OK id=1x8Iom-00000001YbP-2fde
+
+[2026-09-20 14:47:04] CLIENT -> SERVER: QUIT
+
+[2026-09-20 14:47:04] SERVER -> CLIENT: 221 bom1plzcpnl493944.prod.bom1.secureserver.net closing connection
+
